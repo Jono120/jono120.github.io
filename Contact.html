@@ -51,88 +51,7 @@
         </div>
     </div>
 
-    <!-- Team Container -->
-    <div class="w3-container w3-padding-64 w3-center" id="team">
-        <h2>OUR FRIENDLY TEAM</h2>
-        <p>Meet the amazing wife and husband team - our hosts:</p>
-
-        <div class="w3-row">
-            <br>
-            <div class="w3-third">
-                <img src="Images/Elke.jpg" alt="Owner Operator" style="width:50%" class="w3-circle w3-hover-opacity">
-                <h3>Elke Kuebler</h3>
-                <p>Owner and Hostess</p>
-            </div>
-
-            <div class="w3-third">
-                <img src="Images/Stephen.JPG" alt="Operator" style="width:50%" class="w3-circle w3-hover-opacity">
-                <h3>Stephen Dykes</h3>
-                <p>Host</p>
-            </div>
-
-            <div class="w3-third">
-                <img src="Images/Anthony.jpg" alt="Operator" style="width:50%" class="w3-circle w3-hover-opacity">
-                <h3>Anthony Dykes</h3>
-                <p>Host</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- Work Row -->
-    <div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
-        <div class="w3-half">
-            <h2>Our Work</h2>
-            <p>
-                Wake up to the sound of birds greeting the day, and free range eggs for breakfast.
-                Are you an animal lover. We have chickens, ducks & 2 dogs.<br />
-                <br />
-                We are only a short 5 min walk to the Railway station or bus stop and 15mins from the CBD, and Wellington's vast Café society.
-                Take a stroll along Wellington's water front and enjoy the amazing views and Te Papa Museum.<br />
-                <br />
-                If you love the beach. We are only 10mins drive from 3 different beaches, where you can swim, surfer or paddle board.
-                Or just walk along the many local walking tracks along the shore or up the hills, and enjoy the splendor that is Wellington.
-            </p>
-        </div>
-    </div>
-
-    
-    <!-- Rooms Row -->
-    <div class="w3-row-padding w3-center w3-padding-64" id="pricing">
-        <h2>Rooms that we have available!</h2>
-        <p>Check out the rooms that we have available.</p><br>
-        <div class="w3-half w3-margin-bottom">
-            <ul class="w3-ul w3-border w3-hover-shadow">
-                <li class="w3-theme">
-                    <p class="w3-xlarge">Starting From</p>
-                </li>
-                <li class="w3-padding-16"><b>Per Night</b></li>
-                <li class="w3-padding-16">From $90 NZD</li>
-                <li class="w3-padding-16">4 Guests</li>
-                <li class="w3-padding-16">4 Beds</li>
-                <li class="w3-padding-16">2 Bedrooms</li>
-                <li class="w3-padding-16">1 Bath</li>
-                <li class="w3-button w3-teal">
-                    <a href="https://www.airbnb.co.nz/rooms/11974455" class="w3-button">Book Now!</a>
-                </li>
-            </ul>
-        </div>
-
-        <div class="w3-content w3-section w3-half centered">
-            <img class="mySlides w3-animate-fading" src="Images/Slideshow/TheDuckRoom.jpg" style="width:100%; height:auto; align-content:center">
-            <img class="mySlides w3-animate-fading" src="Images/Slideshow/TheDuckRoom1.jpg" style="width:auto; height:500px; align-content:center">
-            <img class="mySlides w3-animate-fading" src="Images/Slideshow/OceanRoom.jpg" style="width:100%; height:auto; align-content:center">
-            <img class="mySlides w3-animate-fading" src="Images/Slideshow/OceanRoom1.jpg" style="width:auto; height:500px; align-content:center">
-            <img class="mySlides w3-animate-fading" src="Images/Slideshow/Bathroom.jpg" style="width:auto; height:500px; align-content:center">
-            <img class="mySlides w3-animate-fading" src="Images/Slideshow/Bathroom1.jpg" style="width:auto; height:500px; align-content:center">
-            <!--<img class="mySlides w3-animate-fading" src="Images/Slideshow/OceanRoom1.jpg" style="width:auto; height:auto; align-content:center">
-                <img class="mySlides w3-animate-fading" src="Images/Slideshow/OceanRoom1.jpg" style="width:auto; height:auto; align-content:center">
-
-                -->
-        </div>
-    </div>
-
-
-    <!-- Contact Container -->
+    <!--Contact container-->
     <div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
         <div class="w3-row">
             <div class="w3-col m5">
@@ -140,6 +59,7 @@
                 <h3>Address</h3>
                 <p>Gives an email for a booking or check us out on our social media pages!</p>
                 <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>  Check out the map below!</p>
+                <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>  +64 27 620 8991</p>
                 <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>  <a href="mailto:theduckenbnb@gmail.com">Email me with any questions!</a></p>
             </div>
         </div>
@@ -159,6 +79,7 @@
         <p>Powered by <a href="https://pages.github.com/" target="https://pages.github.com/">GitHub Pages</a></p>
         <p>Copyright&copy; The Ducken Wellington&trade; 2017</p>
 
+
         <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
             <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>
             <a class="w3-button w3-theme" href="#myPage">
@@ -168,25 +89,5 @@
             </a>
         </div>
     </footer>
-
-    <script>
-        //Image Carousel
-        var myIndex = 0;
-        carousel();
-
-        function carousel() {
-            var i;
-            var x = document.getElementsByClassName("mySlides");
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";
-            }
-
-            myIndex++;
-            if (myIndex > x.length) { myIndex = 1 }
-            x[myIndex - 1].style.display = "block";
-            setTimeout(carousel, 9000);
-        }
-
-    </script>
 </body>
 </html>

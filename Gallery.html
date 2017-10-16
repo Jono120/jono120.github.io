@@ -1,0 +1,186 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Ducken Bed and Breakfast</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="CSS/w3.css">
+    <link rel="stylesheet" href="CSS/w3-theme-black.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="text/javascript" src="Javascript/navbar.js">
+    <link rel="stylesheet" href="CSS/gallery.css">
+</head>
+
+
+
+<body id="myPage">
+    <!-- Navbar -->
+    <div class="w3-top">
+        <!--Main Menu-->
+        <div class="w3-bar w3-theme-d2 w3-left-align">
+            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+            <a href="index.html" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>DB&B</a>
+            <a href="About Us.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About Us</a>
+            <a href="Reviews.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Reviews</a>
+            <a href="Blog.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Blog</a>
+            <a href="Contact.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+            <div class="w3-dropdown-hover w3-hide-small">
+                <button class="w3-button" title="Notifications">Social Media <i class="fa fa-caret-down"></i></button>
+                <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+                    <a href="https://www.facebook.com/theduckenwellington/" class="w3-bar-item w3-button">Facebook</a>
+                    <a href="https://www.instagram.com/theduckenwellington/?hl=en" class="w3-bar-item w3-button">Instagram</a>
+                    <a href="https://www.airbnb.co.nz/rooms/11974455" class="w3-bar-item w3-button">AirBnB</a>
+                </div>
+            </div>
+            <!--<a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>-->
+        </div>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+            <a href="About Us.html" class="w3-bar-item w3-button">About Us</a>
+            <a href="Reviews.html" class="w3-bar-item w3-button">Reviews</a>
+            <a href="Blog.html" class="w3-bar-item w3-button">Blog</a>
+            <a href="Contact.html" class="w3-bar-item w3-button">Contact</a>
+            <a href="https://www.facebook.com/theduckenwellington/" class="w3-bar-item w3-button">Facebook</a>
+            <a href="https://www.instagram.com/theduckenwellington/?hl=en" class="w3-bar-item w3-button">Instagram</a>
+            <a href="https://www.airbnb.co.nz/rooms/11974455" class="w3-bar-item w3-button">AirBnB</a>
+        </div>
+    </div>
+
+    <!-- Image Header -->
+    <div class="w3-display-container w3-animate-opacity">
+        <img src="Images/Logo.jpg" alt="logo" style="width:100%;min-height:250px;max-height:500px;">
+        <div class="w3-container w3-display-bottomleft w3-margin-bottom">
+            <button onclick="location.href ='index.html'" .style.display='block' type="button" class="w3-button w3-xlarge w3-theme w3-hover-teal" title="Home">Home Page</button>
+        </div>
+    </div>
+
+
+    <!--Gallery-->
+    <div class="w3-container">
+        <h2>Some of our happy guests.</h2>
+        <p>Click on the images to display them in full size.</p>
+    </div>
+
+
+
+    <!--Slideshow Images-->
+    <!--<div class="w3-row-padding" style="margin:10px -16px">
+
+        <div class="w3-col s4">
+            <img src="Images/Slideshow/TheDuckRoom.jpg" style="width:100%; height:500px; cursor:pointer"
+                 onclick="openModal();currentDiv(1)" class="w3-hover-shadow">
+        </div>
+
+        <div class="w3-col s4">
+            <img src="Images/Slideshow/TheDuckRoom1.jpg" style="width:75%; height:500px; cursor:pointer"
+                 onclick="openModal();currentDiv(2)" class="w3-hover-shadow">
+        </div>
+
+        <div class="w3-col s4">
+            <img src="Images/Slideshow/OceanRoom.jpg" style="width:100%; height:500px; cursor:pointer"
+                 onclick="openModal();currentDiv(3)" class="w3-hover-shadow">
+        </div>
+
+        <div class="w3-col s4">
+            <img src="Images/Slideshow/OceanRoom1.jpg" style="width:75%; height:500px; cursor:pointer"
+                 onclick="openModal();currentDiv(4)" class="w3-hover-shadow">
+        </div>
+    </div>
+
+    <div id="myModal" class="w3-modal w3-black">
+        <span class="w3-text-white w3-xxlarge w3-hover-text-grey w3-container w3-display-topright" onclick="closeModal()" style="cursor:pointer">×</span>
+        <div class="w3-modal-content">
+
+            <div class="w3-content" style="max-width:1200px">
+                <img class="mySlides" src="Images/Slideshow/TheDuckRoom.jpg" style="width:100%; height:auto">
+                <img class="mySlides" src="Images/Slideshow/TheDuckRoom1.jpg" style="width:auto; height:auto;">
+                <img class="mySlides" src="Images/Slideshow/OceanRoom.jpg" style="width:100%; height:auto">
+                <img class="mySlides" src="Images/Slideshow/OceanRoom1.jpg" style="width:384px; height:683px;">
+                <div class="w3-row w3-black w3-center">
+                    <div class="w3-display-container">
+                        <p id="caption"></p>
+                        <span class="w3-display-left w3-btn" onclick="plusDivs(-1)">❮</span>
+                        <span class="w3-display-right w3-btn" onclick="plusDivs(1)">❯</span>
+                    </div>
+
+                    <div class="w3-col s4">
+                        <img class="demo w3-opacity w3-hover-opacity-off" src="Images/Slideshow/TheDuckRoom.jpg" style="width:100%; height:500px" onclick="currentDiv(1)" alt="TheDuckRoom">
+                    </div>
+                    <div class="w3-col s4">
+                        <img class="demo w3-opacity w3-hover-opacity-off" src="Images/Slideshow/TheDuckRoom1.jpg" style="width:384px; height:683px;" onclick="currentDiv(2)" alt="TheDuckRoom">
+                    </div>
+                    <div class="w3-col s4">
+                        <img class="demo w3-opacity w3-hover-opacity-off" src="Images/Slideshow/OceanRoom.jpg" style="width:100%" onclick="currentDiv(3)" alt="TheOceanRoom">
+                    </div>
+                    <div class="w3-col s4">
+                        <img class="demo w3-opacity w3-hover-opacity-off" src="Images/Slideshow/OceanRoom1.jpg" style="width:384px; height:683px;" onclick="currentDiv(4)" alt="TheOceanRoom">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>-->
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+        <h4>Follow Us</h4>
+        <a class="w3-button w3-medium w3-teal" href="https://www.facebook.com/theduckenwellington/" title="Facebook"><img src="Images/icons/facebook_logo.svg" width="24" height="24"></a>
+        <a class="w3-button w3-medium w3-teal" href="https://www.instagram.com/theduckenwellington/?hl=en" title="Instagram"><img src="Images/icons/instagram_logo.svg" width="24" height="24"></a>
+        <a class="w3-button w3-medium w3-teal" href="https://www.airbnb.co.nz/rooms/11974455" title="Airbnb"><img src="Images/icons/airbnb_logo.svg" width="24" height="24"></a>
+        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="https://www.w3schools.com/w3css/default.asp">w3.css</a></p>
+        <p>Powered by <a href="https://pages.github.com/" target="https://pages.github.com/">GitHub Pages</a></p>
+        <p>Copyright&copy; The Ducken Wellington&trade; 2017</p>
+
+
+        <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+            <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>
+            <a class="w3-button w3-theme" href="#myPage">
+                <span class="w3-xlarge">
+                    <i class="fa fa-chevron-circle-up"></i>
+                </span>
+            </a>
+        </div>
+    </footer>
+
+    <script>
+        //Image Gallery
+        //function openModal() {
+        //    document.getElementById('myModal').style.display = "block";
+        //}
+
+        //function closeModal() {
+        //    document.getElementById('myModal').style.display = "none";
+        //}
+
+        //var slideIndex = 1;
+        //showDivs(slideIndex);
+
+        //function plusDivs(n) {
+        //    showDivs(slideIndex += n);
+        //}
+
+        //function currentDiv(n) {
+        //    showDivs(slideIndex = n);
+        //}
+
+        //function showDivs(n) {
+        //    var i;
+        //    var x = document.getElementsByClassName("mySlides");
+        //    var dots = document.getElementsByClassName("demo");
+        //    var captionText = document.getElementById("caption");
+        //    if (n > x.length) { slideIndex = 1 }
+        //    if (n < 1) { slideIndex = x.length }
+        //    for (i = 0; i < x.length; i++) {
+        //        x[i].style.display = "none";
+        //    }
+        //    for (i = 0; i < dots.length; i++) {
+        //        dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+
+        //    }
+        //    x[slideIndex - 1].style.display = "block";
+        //    dots[slideIndex - 1].className += " w3-opacity-off";
+        //    captionText.innerHTML = dots[slideIndex - 1].alt;
+        //}
+    </script>
+</body>
+</html>

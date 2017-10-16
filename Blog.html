@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Ducken Bed and Breakfast</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="CSS/w3.css">
+    <link rel="stylesheet" href="CSS/w3-theme-black.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="text/javascript" src="Javascript/navbar.js" />
+</head>
+
+
+<body id="myPage">
+    <!--Facebook Feed Connection-->
+    <div id="fb-root"></div>
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-theme-d2 w3-left-align">
+            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+            <a href="index.html" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>DB&B</a>
+            <a href="About Us.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About Us</a>
+            <a href="Reviews.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Reviews</a>
+            <a href="Blog.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Blog</a>
+            <a href="Contact.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+            <div class="w3-dropdown-hover w3-hide-small">
+                <button class="w3-button" title="Notifications">Social Media <i class="fa fa-caret-down"></i></button>
+                <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+                    <a href="https://www.facebook.com/theduckenwellington/" class="w3-bar-item w3-button">Facebook</a>
+                    <a href="https://www.instagram.com/theduckenwellington/?hl=en" class="w3-bar-item w3-button">Instagram</a>
+                    <a href="https://www.airbnb.co.nz/rooms/11974455" class="w3-bar-item w3-button">AirBnB</a>
+                </div>
+            </div>
+            <!--<a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>-->
+        </div>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+            <a href="About Us.html" class="w3-bar-item w3-button">About Us</a>
+            <a href="Reviews.html" class="w3-bar-item w3-button">Reviews</a>
+            <a href="Blog.html" class="w3-bar-item w3-button">Blog</a>
+            <a href="Contact.html" class="w3-bar-item w3-button">Contact</a>
+            <a href="https://www.facebook.com/theduckenwellington/" class="w3-bar-item w3-button">Facebook</a>
+            <a href="https://www.instagram.com/theduckenwellington/?hl=en" class="w3-bar-item w3-button">Instagram</a>
+            <a href="https://www.airbnb.co.nz/rooms/11974455" class="w3-bar-item w3-button">AirBnB</a>
+        </div>
+    </div>
+
+
+    <!-- Image Header -->
+    <<div class="w3-display-container w3-animate-opacity">
+        <img src="Images/Logo.jpg" alt="logo" style="width:100%;min-height:250px;max-height:500px;">
+        <div class="w3-container w3-display-bottomleft w3-margin-bottom">
+            <!--<button onclick="location.href ='Gallery.html'" .style.display='block' type="button" class="w3-button w3-xlarge w3-theme w3-hover-teal" title="Gallery">Gallery</button>-->
+        </div>
+    </div>
+
+
+    <!--Facebook Timeline Feed Display-->
+    <div style="width: 600px" class="centered">
+        <div class="fb-page"
+             data-href="https://www.facebook.com/theduckenwellington/"
+             data-tabs="timeline, messages"
+             data-small-header="true"
+             data-width="500"
+             data-height="1000"
+             data-hide-cover="true"
+             data-show-facepile="true">
+            <blockquote cite="https://www.facebook.com/theduckenwellington/" class="fb-xfbml-parse-ignore">
+                <a href="https://www.facebook.com/theduckenwellington/">The Ducken BnB Facebook</a>
+            </blockquote>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+        <h4>Follow Us</h4>
+        <a class="w3-button w3-medium w3-teal" href="https://www.facebook.com/theduckenwellington/" title="Facebook"><img src="Images/icons/facebook_logo.svg" width="24" height="24"></a>
+        <a class="w3-button w3-medium w3-teal" href="https://www.instagram.com/theduckenwellington/?hl=en" title="Instagram"><img src="Images/icons/instagram_logo.svg" width="24" height="24"></a>
+        <a class="w3-button w3-medium w3-teal" href="https://www.airbnb.co.nz/rooms/11974455" title="Airbnb"><img src="Images/icons/airbnb_logo.svg" width="24" height="24"></a>
+        <!--<a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-google-plus"></i></a>
+        <a class="w3-button w3-large w3-teal w3-hide-small" href="javascript:void(0)" title="Linkedin"><i class="fa fa-linkedin"></i></a>-->
+        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="https://www.w3schools.com/w3css/default.asp">w3.css</a></p>
+        <p>Powered by <a href="https://pages.github.com/" target="https://pages.github.com/">GitHub Pages</a></p>
+        <p>Copyright&copy; The Ducken Wellington&trade; 2017</p>
+
+        <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+            <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>
+            <a class="w3-button w3-theme" href="#myPage">
+                <span class="w3-xlarge">
+                    <i class="fa fa-chevron-circle-up"></i>
+                </span>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

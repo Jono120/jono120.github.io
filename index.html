@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="CSS/w3.css">
     <link rel="stylesheet" href="CSS/w3-theme-black.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="text/javascript" src="Javascript/navbar.js" />
 </head>
 
 <body id="myPage">
@@ -95,7 +94,7 @@
         </div>
     </div>
 
-    
+
     <!-- Rooms Row -->
     <div class="w3-row-padding w3-center w3-padding-64" id="pricing">
         <h2>Rooms that we have available!</h2>
@@ -187,6 +186,15 @@
             setTimeout(carousel, 9000);
         }
 
+        // Used to toggle the menu on smaller screens when clicking on the menu button
+        function openNav() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
     </script>
 </body>
 </html>

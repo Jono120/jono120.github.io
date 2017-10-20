@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="CSS/w3-theme-black.css">
     <!--<link rel="stylesheet" href="CSS/rating.css">-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="text/javascript" src="Javascript/navbar.js">
     <!--<link rel="text/javascript" src="Javascript/ratings.js">-->
 </head>
 
@@ -57,8 +56,9 @@
 
     <div class="w3-container w3-padding-64 w3-center" id="review">
         <h2>Leave us a comment about your stay! :-)</h2>
-        <p>This function will be available within the coming days.
-        <h1>Watch This Space!</h1>
+        <p>
+            This function will be available within the coming days.
+            <h1>Watch This Space!</h1>
         </p>
         <!--<p>
             You can leave us with a helpful comment through this form or on our AirBnB page.<br />
@@ -117,6 +117,16 @@
 
 
     <script>
+        // Used to toggle the menu on smaller screens when clicking on the menu button
+        function openNav() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+
         //Stars JQuery for the styling
         //jQuery(document).ready(function () {
         //    $("#input-21e").rating({

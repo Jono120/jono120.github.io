@@ -1,37 +1,9 @@
-## Welcome to GitHub Pages
+## Welcome to The Ducken Wellington
+Here the website is maintained and built using a combination of multiple web stack technologies.
+With HTML being the main backbone and creation code for the page. The styling is done through CSS with the aid of Javascript.
 
-You can use the [editor on GitHub](https://github.com/Jono120/theducken/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This site is also being used as a tiertiary project with ideas of the functions being taken from there as well as client requirements.
+This site's code is not to be used for any other website that is of similar nature or to cause harm to the owners or business itself. Without having permission to use the same exact names as this company.
+The Ducken Wellington is Copyrighted, as well as its other named conterparts.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Jono120/theducken/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Thank you
